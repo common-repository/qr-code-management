@@ -1,0 +1,1070 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: QR code management\n"
+"POT-Creation-Date: 2020-04-18 13:28+0900\n"
+"PO-Revision-Date: 2020-04-18 13:32+0900\n"
+"Last-Translator: Redwoodcity Inc. <mail@redwoodcity.jp>\n"
+"Language-Team: Redwoodcity Inc. <mail@redwoodcity.jp>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: qr-code-management.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: includes/Admin.php:21 includes/Admin.php:22 includes/Admin.php:27
+msgid "QR code management"
+msgstr "QRコード管理"
+
+#: includes/Admin.php:23
+msgid "QR code list"
+msgstr "QRコード一覧"
+
+#: includes/Admin.php:59
+msgid "Setting"
+msgstr "設定"
+
+#: includes/Admin.php:98
+msgid "Report"
+msgstr "レポート"
+
+#: includes/Qrcode.php:130 includes/Qrcode.php:721
+msgid "QR Code"
+msgstr "QRコード"
+
+#: includes/Qrcode.php:132
+msgid "Author"
+msgstr "投稿者"
+
+#: includes/Qrcode.php:511 templates/admin-qrcm-setting.php:174
+msgid "png"
+msgstr "PNG"
+
+#: includes/Qrcode.php:518 templates/admin-qrcm-setting.php:186
+msgid "svg"
+msgstr "SVG"
+
+#: includes/Qrcode.php:522 templates/admin-qrcm-setting.php:180
+msgid "eps"
+msgstr "EPS"
+
+#: includes/Qrcode.php:528 templates/admin-qrcm-setting.php:168
+msgid "jpeg"
+msgstr "JPEG"
+
+#: includes/Qrcode.php:592 includes/Qrcode.php:678
+msgid "QR Code Data"
+msgstr "QRコードデータ"
+
+#: includes/Qrcode.php:596 includes/Qrcode.php:683
+msgid "QR Code Settings"
+msgstr "QRコード設定"
+
+#: includes/Qrcode.php:600 includes/Qrcode.php:688
+msgid "QR Code Shortcode"
+msgstr "QRコードショートコード"
+
+#. Plugin Name of the plugin/theme
+#: includes/Qrcode.php:978
+msgid "QR Code Management"
+msgstr "QR Code Management"
+
+#: includes/Qrcode.php:979
+msgid "Forwarding"
+msgstr "転送"
+
+#: includes/Qrcode.php:980
+msgid "Would you like to redirect to the url \"%URL\""
+msgstr "\"%URL\"にリダイレクトしますか"
+
+#: includes/Qrcode.php:981
+msgid "Select device"
+msgstr "デバイスを選択"
+
+#: includes/Qrcode.php:982
+msgid "Wait for your permission"
+msgstr "許可を待っています"
+
+#: includes/Qrcode.php:983
+msgid "Permission failed"
+msgstr "許可に失敗しました"
+
+#: includes/Qrcode.php:984
+msgid ""
+"Your browser has no permission for the camera. Please activate the "
+"permission."
+msgstr ""
+"お使いのブラウザにはカメラに対する権限がありません。権限を有効にしてくださ"
+"い。"
+
+#: templates/admin-qrcm-setting.php:8
+msgid "QR code setting"
+msgstr "QRコード設定"
+
+#: templates/admin-qrcm-setting.php:62
+msgid "Display settings"
+msgstr "表示設定"
+
+#: templates/admin-qrcm-setting.php:65
+msgid "List display"
+msgstr "一覧の表示"
+
+#: templates/admin-qrcm-setting.php:73
+msgid "Image"
+msgstr "画像"
+
+#: templates/admin-qrcm-setting.php:79
+msgid "Download"
+msgstr "ダウンロード"
+
+#: templates/admin-qrcm-setting.php:85
+msgid "QR Code data settings"
+msgstr "QRコードデータ設定"
+
+#: templates/admin-qrcm-setting.php:88
+msgid "Data format used"
+msgstr "使用するデータ形式"
+
+#: templates/admin-qrcm-setting.php:106
+msgid "Role settings"
+msgstr "権限設定"
+
+#: templates/admin-qrcm-setting.php:109
+msgid "Custom post type settings"
+msgstr "カスタム投稿タイプ設定"
+
+#: templates/admin-qrcm-setting.php:126
+msgid "User settings"
+msgstr "ユーザー設定"
+
+#: templates/admin-qrcm-setting.php:136
+msgid "Use with user profile"
+msgstr "ユーザープロフィールで使用する"
+
+#: templates/admin-qrcm-setting.php:139
+msgid "Available permissions"
+msgstr "使用可能な権限"
+
+#: templates/admin-qrcm-setting.php:158
+msgid "Output setting"
+msgstr "出力設定"
+
+#: templates/admin-qrcm-setting.php:161
+msgid "Format"
+msgstr "形式"
+
+#: templates/admin-qrcm-setting.php:191
+msgid "Redirect settings"
+msgstr "リダイレクト設定"
+
+#: templates/admin-qrcm-setting.php:194
+msgid "Presence"
+msgstr "有効／無効"
+
+#: templates/admin-qrcm-setting.php:201
+msgid "Valid"
+msgstr "有効"
+
+#: templates/admin-qrcm-setting.php:207
+msgid "Invalid"
+msgstr "無効"
+
+#: templates/admin-qrcm-setting.php:225
+msgid "Save"
+msgstr "保存"
+
+#: templates/meta-box-qrcode-data.php:8
+#: templates/meta-box-qrcode-settings.php:29
+msgid "Set individually"
+msgstr "個別に設定する"
+
+#: templates/meta-box-qrcode-data.php:14
+#: templates/meta-box-qrcode-settings.php:35
+msgid "Not set"
+msgstr "設定しない"
+
+#: templates/meta-box-qrcode-data.php:19
+#: templates/meta-box-qrcode-settings.php:40
+msgid "Set"
+msgstr "設定する"
+
+#: templates/meta-box-qrcode-data.php:30 templates/meta-box-qrcode-data.php:69
+#: templates/meta-box-qrcode-data.php:194
+msgid "URL"
+msgstr "URL"
+
+#: templates/meta-box-qrcode-data.php:39
+msgid "Contact"
+msgstr "連絡先"
+
+#: templates/meta-box-qrcode-data.php:48
+msgid "Events"
+msgstr "イベント"
+
+#: templates/meta-box-qrcode-data.php:57 templates/meta-box-qrcode-data.php:267
+msgid "Free"
+msgstr "自由入力"
+
+#: templates/meta-box-qrcode-data.php:86
+msgid "Type"
+msgstr "タイプ"
+
+#: templates/meta-box-qrcode-data.php:91
+msgid "MeCard"
+msgstr "MeCard"
+
+#: templates/meta-box-qrcode-data.php:95
+msgid "vCard"
+msgstr "vCard"
+
+#: templates/meta-box-qrcode-data.php:98
+msgid "Select contact information QR code format"
+msgstr "連絡先情報のQRコードフォーマットを選択"
+
+#: templates/meta-box-qrcode-data.php:102
+msgid "Name"
+msgstr "名前"
+
+#: templates/meta-box-qrcode-data.php:107
+msgid ""
+"A structured representation of the name of the person. When a field is "
+"divided by a comma (,), the first half is treated as the last name and the "
+"second half is treated as the first name."
+msgstr ""
+"人の名前の構造化された表現。フィールドがコンマ（,）で区切られている場合、前半"
+"は姓として扱われ、後半は名として扱われます。"
+
+#: templates/meta-box-qrcode-data.php:111
+msgid "Nickname"
+msgstr "ニックネーム"
+
+#: templates/meta-box-qrcode-data.php:117
+msgid "Familiar name for the object represented by this MeCard/vCard."
+msgstr "この MeCard / vCard によって表示されるニックネーム。"
+
+#: templates/meta-box-qrcode-data.php:121
+msgid "Sound"
+msgstr "音"
+
+#: templates/meta-box-qrcode-data.php:126
+msgid ""
+"Designates a text string to be set as the kana name in the phonebook.When a "
+"field is divided by a comma (,), the first half is treated as the last name "
+"and the second half is treated as the first name."
+msgstr ""
+"電話帳の仮名として設定する文字列を指定します。フィールドをカンマ（,）で区切る"
+"と、前半が姓、後半が名として扱われます。"
+
+#: templates/meta-box-qrcode-data.php:130
+msgid "Phone"
+msgstr "電話"
+
+#: templates/meta-box-qrcode-data.php:134
+msgid ""
+"The canonical number string for a telephone number for telephony "
+"communication."
+msgstr "電話通信用の電話番号の正規番号文字列。"
+
+#: templates/meta-box-qrcode-data.php:138
+msgid "Videophone"
+msgstr "テレビ電話"
+
+#: templates/meta-box-qrcode-data.php:145
+msgid "The canonical string for a videophone number communication."
+msgstr "テレビ電話番号通信の正規の文字列"
+
+#: templates/meta-box-qrcode-data.php:149
+msgid "Email"
+msgstr "メールアドレス"
+
+#: templates/meta-box-qrcode-data.php:154
+msgid "The address for electronic mail communication."
+msgstr "電子メール通信用のアドレス。"
+
+#: templates/meta-box-qrcode-data.php:158
+msgid "Address"
+msgstr "住所"
+
+#: templates/meta-box-qrcode-data.php:163
+msgid ""
+"The physical delivery address. The fields divided by commas (,) denote PO "
+"box, room number, house number, city, prefecture, zip code and country, in "
+"order."
+msgstr ""
+"物理的な配送先住所。カンマ（,）で区切られたフィールドは、私書箱、部屋番号、家"
+"の番号、市、県、郵便番号、国を順に示します。"
+
+#: templates/meta-box-qrcode-data.php:167
+msgid "Birthday"
+msgstr "誕生日"
+
+#: templates/meta-box-qrcode-data.php:172
+msgid ""
+"8 digits for date of birth: year (4 digits), month (2 digits) and day (2 "
+"digits), in order."
+msgstr "生年月日の8桁：年（4桁）、月（2桁）、日（2桁）の順番。"
+
+#: templates/meta-box-qrcode-data.php:176
+msgid "Title"
+msgstr "タイトル"
+
+#: templates/meta-box-qrcode-data.php:181
+msgid "Position held in organization."
+msgstr "組織での役職。"
+
+#: templates/meta-box-qrcode-data.php:185
+msgid "Organization"
+msgstr "組織"
+
+#: templates/meta-box-qrcode-data.php:190
+msgid "Organization name."
+msgstr "組織名。"
+
+#: templates/meta-box-qrcode-data.php:198
+msgid "A URL pointing to a website that represents the person in some way."
+msgstr "何らかの形で人物を表すWebサイトを指すURL"
+
+#: templates/meta-box-qrcode-data.php:202
+msgid "Note"
+msgstr "ノート"
+
+#: templates/meta-box-qrcode-data.php:206
+msgid "Specifies supplemental information to be set as memo in the phonebook."
+msgstr "電話帳にメモとして設定する補足情報を指定します。"
+
+#: templates/meta-box-qrcode-data.php:233
+msgid "Start"
+msgstr "開始"
+
+#: templates/meta-box-qrcode-data.php:243
+msgid "End"
+msgstr "終了"
+
+#: templates/meta-box-qrcode-data.php:253
+msgid "Summary"
+msgstr "概要"
+
+#: templates/meta-box-qrcode-settings.php:46
+msgid "Margin"
+msgstr "余白"
+
+#: templates/meta-box-qrcode-settings.php:50
+msgid "Specify border size around QR code in px"
+msgstr "QRコードの周囲の境界線サイズをピクセルで指定してください"
+
+#: templates/meta-box-qrcode-settings.php:55
+msgid "Correction level"
+msgstr "補正レベル"
+
+#: templates/meta-box-qrcode-settings.php:62
+msgid "Level L – up to 7%&nbsp;damage"
+msgstr "Level L – 最大7%の劣化"
+
+#: templates/meta-box-qrcode-settings.php:67
+msgid "Level M – up to 15%&nbsp;damage"
+msgstr "Level M – 最大15%の劣化"
+
+#: templates/meta-box-qrcode-settings.php:72
+msgid "Level Q – up to 25%&nbsp;damage"
+msgstr "Level Q – 最大25%の劣化"
+
+#: templates/meta-box-qrcode-settings.php:77
+msgid "Level H – up to 30%&nbsp;damage"
+msgstr "Level H – 最大30%の劣化"
+
+#: templates/meta-box-qrcode-settings.php:80
+msgid ""
+"There are different amounts of “backup” data depending on how much damage "
+"the QR code is expected to suffer in its intended environment."
+msgstr ""
+"「バックアップ」データの量は、QRコードがその意図された環境で受けると予想され"
+"る損害に応じて異なります。"
+
+#: templates/meta-box-qrcode-settings.php:84
+msgid "Label"
+msgstr "ラベル"
+
+#: templates/meta-box-qrcode-settings.php:88
+msgid "Optional text label below QR code."
+msgstr "QRコードの下のオプションのテキストラベルです。"
+
+#: templates/meta-box-qrcode-settings.php:94
+msgid "Size"
+msgstr "サイズ"
+
+#: templates/meta-box-qrcode-settings.php:101
+msgid "Input a square value, Default:100"
+msgstr "正方形の一辺の値を入力します。デフォルト：100"
+
+#: templates/meta-box-qrcode-settings.php:106
+msgid "Color"
+msgstr "色"
+
+#: templates/meta-box-qrcode-settings.php:115
+msgid "Background Color"
+msgstr "背景色"
+
+#: templates/meta-box-qrcode-settings.php:123
+msgid "Logo"
+msgstr "ロゴ"
+
+#: templates/meta-box-qrcode-settings.php:137
+msgid "Edit"
+msgstr "変更"
+
+#: templates/meta-box-qrcode-settings.php:139
+msgid "Delete"
+msgstr "削除"
+
+#: templates/meta-box-qrcode-settings.php:143
+msgid "No image selected"
+msgstr "画像が選択されていません"
+
+#: templates/meta-box-qrcode-settings.php:145
+msgid "Add an image"
+msgstr "画像追加"
+
+#: templates/meta-box-qrcode-settings.php:149
+msgid "Optional logo image at center of QR code."
+msgstr "QRコードの中央にあるロゴ画像。"
+
+#: templates/meta-box-qrcode-settings.php:166
+msgid "Logo size"
+msgstr "ロゴサイズ"
+
+#: templates/meta-box-qrcode-settings.php:174
+msgid "Set logo image size in pixels or percents."
+msgstr "ロゴ画像のサイズをピクセルまたはパーセントで設定します。"
+
+#: templates/meta-box-qrcode-shortcode.php:12
+msgid "Shortcode"
+msgstr "ショートコード"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.redwoodcity.jp/app/qrcm/"
+msgstr "https://www.redwoodcity.jp/app/qrcm/"
+
+#. Description of the plugin/theme
+msgid ""
+"A plug-in that issues a QR code for public pages of posts, fixed pages, and "
+"custom post types. The QR code format is PNG, SVG, EPS, JPEG."
+msgstr ""
+"投稿、固定ページ、カスタム投稿タイプの公開ページ用QRコードを発行するプラグイ"
+"ンです。QRコードの形式はPNG、SVG、EPS、JPEGです。"
+
+#. Author of the plugin/theme
+msgid "Redwoodcity Inc."
+msgstr "株式会社レッドウッドシティ"
+
+#. Author URI of the plugin/theme
+msgid "https://www.redwoodcity.jp/"
+msgstr "https://www.redwoodcity.jp/"
+
+#, fuzzy, php-format
+#~| msgid "Level M – up to 15% damage"
+#~ msgid "Level M – up to 15% damage"
+#~ msgstr "Level M – 最大15％の劣化"
+
+#, fuzzy, php-format
+#~| msgid "Level Q – up to 25% damage"
+#~ msgid "Level Q – up to 25\\% damage"
+#~ msgstr "Level Q – 最大25％の劣化"
+
+#, fuzzy, php-format
+#~| msgid "Level H – up to 30% damage"
+#~ msgid "Level H – up to 30\\% damage"
+#~ msgstr "Level H – 最大30％の劣化"
+
+#~ msgid "QR Code URL"
+#~ msgstr "QRコードURL"
+
+#~ msgid "https://www.redwoodcity.jp/qrcode-management/"
+#~ msgstr "https://www.redwoodcity.jp/qrcode-management/"
+
+#~ msgid "checked"
+#~ msgstr "checked"
+
+#~ msgid ""
+#~ "This plug-in can implement an easy-to-use stamp rally using browser "
+#~ "cookies."
+#~ msgstr ""
+#~ "このプラグインはブラウザのクッキーを使用した気軽にできるスタンプラリーを実"
+#~ "装できます。"
+
+#~ msgid "Add to"
+#~ msgstr "追加"
+
+#~ msgid "Display"
+#~ msgstr "表示"
+
+#~ msgid "QR code management Plug-in"
+#~ msgstr "QRコード管理プラグイン"
+
+#~ msgid "https://www.webya.co.jp/"
+#~ msgstr "https://www.webya.co.jp/"
+
+#~ msgid "Stamp Rally Settings"
+#~ msgstr "スタンプラリー設定"
+
+#~ msgid "Stamp Rally"
+#~ msgstr "スタンプラリー"
+
+#~ msgid "Stamp Rally App Plug-in"
+#~ msgstr "スタンプラリーアプリ　プラグイン"
+
+#~ msgid "Case"
+#~ msgstr "症例"
+
+#~ msgid "None"
+#~ msgstr "なし"
+
+#~ msgid "Registration"
+#~ msgstr "登録"
+
+#~ msgid "Case list"
+#~ msgstr "症例一覧"
+
+#~ msgid "Case category"
+#~ msgstr "症例カテゴリー"
+
+#~ msgid "Tsubo category"
+#~ msgstr "ツボ"
+
+#~ msgid "Created"
+#~ msgstr "作成日"
+
+#~ msgid "Last Used"
+#~ msgstr "最終使用日"
+
+#~ msgid "Last IP"
+#~ msgstr "最終アクセスIP"
+
+#~ msgid "Revoke"
+#~ msgstr "削除"
+
+#~ msgid "Revoke all application passwords"
+#~ msgstr "すべてのパスワードを削除"
+
+#~ msgid ""
+#~ "No HTTP Basic Authorization credentials were found submitted with this "
+#~ "request."
+#~ msgstr "この要求でHTTP基本認証資格情報が送信されていませんでした。"
+
+#~ msgid ""
+#~ "Due to a potential server misconfiguration, it seems that HTTP Basic "
+#~ "Authorization may not work for the REST API on this site: `Authorization` "
+#~ "headers are not being sent to WordPress by the web server. <a href="
+#~ "\"https://github.com/georgestephanis/application-passwords/wiki/Basic-"
+#~ "Authorization-Header----Missing\">You can learn more about this problem, "
+#~ "and a possible solution, on our GitHub Wiki.</a>"
+#~ msgstr ""
+#~ "サーバーの設定ミスが発生する可能性があるため、このサイトのREST APIではHTTP"
+#~ "基本認証が機能しない可能性があります。「Authorization」ヘッダーはWebサー"
+#~ "バーからWordPressに送信されていません。 <a href=\"https://github.com/"
+#~ "georgestephanis/application-passwords/wiki/Basic-Authorization-Header----"
+#~ "Missing\"> GitHub Wikiでこの問題と解決策の詳細を学ぶことができます。</a>"
+
+#~ msgid ""
+#~ "Application passwords allow authentication via non-interactive systems, "
+#~ "such as XMLRPC or the REST API, without providing your actual password. "
+#~ "Application passwords can be easily revoked. They cannot be used for "
+#~ "traditional logins to your website."
+#~ msgstr ""
+#~ "アプリケーションパスワードは、実際のパスワードを提供せずに、XMLRPCやREST "
+#~ "APIなどの非対話型システムを介した認証を可能にします。アプリケーションのパ"
+#~ "スワードを簡単に取り消すことができます。ウェブサイトへの従来のログインには"
+#~ "使用できません。"
+
+#~ msgid "New Application Password Name"
+#~ msgstr "新規アプリケーションのパスワード"
+
+#~ msgctxt "application, password"
+#~ msgid "Your new password for %1$s is: %2$s"
+#~ msgstr "新しいパスワード　%1$s is: %2$s"
+
+#~ msgid ""
+#~ "Be sure to save this in a safe location.  You will not be able to "
+#~ "retrieve it."
+#~ msgstr "安全な場所に保管してください。それを取得することはできません。"
+
+#~ msgid "Dismiss"
+#~ msgstr "却下する"
+
+#~ msgid "Detailed information"
+#~ msgstr "詳細情報"
+
+#~ msgid "Age"
+#~ msgstr "年齢"
+
+#~ msgid "years old"
+#~ msgstr "歳"
+
+#~ msgid "'s"
+#~ msgstr "代"
+
+#~ msgid "year"
+#~ msgstr "年"
+
+#~ msgid "month"
+#~ msgstr "月"
+
+#~ msgid "It reflected the evaluation of the case."
+#~ msgstr "症例の評価を反映しました。"
+
+#~ msgid "There is no scoring point. Please post a case and get points."
+#~ msgstr ""
+#~ "採点ポイントがありません。症例を投稿してポイントを取得してください。"
+
+#~ msgid "The remaining scoring point is %s points."
+#~ msgstr "残り採点ポイントは%sポイントです。"
+
+#~ msgid "Easy to understand leaves are used"
+#~ msgstr "わかりやすい⾔葉が使われている"
+
+#~ msgid "usually"
+#~ msgstr "おしい"
+
+#~ msgid "good"
+#~ msgstr "ふつう"
+
+#~ msgid "Very good"
+#~ msgstr "よい"
+
+#~ msgid "It is briefly summarized"
+#~ msgstr "簡潔にまとめられている"
+
+#~ msgid "Objective expression is done"
+#~ msgstr "客観的な表現ができている"
+
+#~ msgid "Easy to understand illustrations"
+#~ msgstr "挿絵がわかりやすい"
+
+#~ msgid "It conforms to the theory of alignment acupuncture"
+#~ msgstr "整動鍼の理論に則している"
+
+#~ msgid "Send"
+#~ msgstr "送信"
+
+#~ msgid "Cases and symptoms etc."
+#~ msgstr "病名や症状など"
+
+#~ msgid "Region"
+#~ msgstr "地域"
+
+#~ msgid "Search"
+#~ msgstr "検索"
+
+#~ msgid "Region name · Nearest station"
+#~ msgstr "地域名・最寄り駅"
+
+#~ msgid "Name of Acupuncturist"
+#~ msgstr "鍼灸院の名称"
+
+#~ msgid "General case setting"
+#~ msgstr "症例一般設定"
+
+#~ msgid "Application password setting"
+#~ msgstr "アプリケーションパスワード設定"
+
+#~ msgid "Embed code"
+#~ msgstr "埋め込みコード"
+
+#~ msgid "Application Passwords"
+#~ msgstr "アプリケーションパスワード"
+
+#~ msgid "Synchronize your portal site with WordPress"
+#~ msgstr "ポータルサイトとWordPressを同期する設定"
+
+#~ msgid "Download WordPress Plugin"
+#~ msgstr "WordPressプラグインをダウンロード"
+
+#~ msgid "Please download the plugin from here."
+#~ msgstr "こちらからプラグインをダウンロードしてください。"
+
+#~ msgid "Install the downloaded plug-in in WordPress."
+#~ msgstr "ダウンロードしたプラグインをWordPressに設置します。"
+
+#~ msgid ""
+#~ "Install the downloaded plug-in to WordPress. Please click on the \"Add New"
+#~ "\" menu in the \"Plug-in\" menu on the management screen."
+#~ msgstr ""
+#~ "ダウンロードしたプラグインをWordPressにインストールします。管理画面の「プ"
+#~ "ラグイン」メニューの中にある「新規追加」メニューをクリックして下さい。"
+
+#~ msgid ""
+#~ "The \"Add plugin\" screen is displayed. Please click the link labeled "
+#~ "\"Upload plugin\" displayed at the top of the screen."
+#~ msgstr ""
+#~ "「プラグインを追加」画面が表示されます。画面上部に表示されている「プラグイ"
+#~ "ンのアップロード」と書かれたリンクをクリックして下さい。"
+
+#~ msgid ""
+#~ "Please click \"Select file\" on the displayed screen. The file selection "
+#~ "dialog will be displayed, so please select the ZIP archive of the plugin "
+#~ "you want to install."
+#~ msgstr ""
+#~ "表示された画面で「ファイルを選択」をクリックして下さい。ファイル選択ダイア"
+#~ "ログが表示されますので、インストールしたいプラグインのZIPアーカイブを選択"
+#~ "して下さい。"
+
+#~ msgid ""
+#~ "When you have finished selecting files, please click \"Install now\"."
+#~ msgstr ""
+#~ "ファイルの選択が終わりましたら「いますぐインストール」をクリックして下さ"
+#~ "い。"
+
+#~ msgid ""
+#~ "The installation of the plug-in is executed. The plugin installation is "
+#~ "complete."
+#~ msgstr ""
+#~ "プラグインのインストールが実行されます。これでプラグインのインストールは完"
+#~ "了です。"
+
+#~ msgid ""
+#~ "By clicking on the \"Installed Plug-in\" menu in the \"Plug-in\" menu on "
+#~ "the administration screen, open the \"Plug-in\" screen and check it, the "
+#~ "plug-in manually installed earlier is added to the installed plug-in You "
+#~ "can confirm that it is done. Please activate the plugin afterwards."
+#~ msgstr ""
+#~ "管理画面で「プラグイン」メニューの中の「インストール済みプラグイン」メ"
+#~ "ニューをクリックし「プラグイン」画面を開いて確認してみると、インストール済"
+#~ "みのプラグインに先程手動でインストールしたプラグインが追加されていることが"
+#~ "確認できます。その後プラグインを有効化してください。"
+
+#~ msgid "Application password issuance"
+#~ msgstr "アプリケーションパスワードの発行"
+
+#~ msgid "Please issue a password to synchronize and copy."
+#~ msgstr "同期するためのパスワードを発行してコピーして下さい。"
+
+#~ msgid "Application password issue page"
+#~ msgstr "アプリケーションパスワード発行ページ"
+
+#~ msgid "Set password for plugin"
+#~ msgstr "プラグインへパスワードを設定"
+
+#~ msgid ""
+#~ "Please enter the user name and the copied password and save the change."
+#~ msgstr "ユーザー名とコピーしたパスワードを入力し変更を保存して下さい。"
+
+#~ msgid "Setting complete"
+#~ msgstr "設定完了"
+
+#~ msgid ""
+#~ "This completes the setting. The portal site and case articles are "
+#~ "synchronized."
+#~ msgstr ""
+#~ "以上で設定が完了となります。ポータルサイトと症例記事が同期されます。"
+
+#~ msgid "Max Posts"
+#~ msgstr "1ページに表示する最大投稿数"
+
+#~ msgid "Matter"
+#~ msgstr "件"
+
+#~ msgid "Category to use"
+#~ msgstr "使用するカテゴリ"
+
+#~ msgid "If not specified, all categories are displayed."
+#~ msgstr "指定しない場合はすべてのカテゴリを表示します。"
+
+#~ msgid "Excluded categories"
+#~ msgstr "除外するカテゴリ"
+
+#~ msgid "Do not use style"
+#~ msgstr "スタイルを使用しない"
+
+#~ msgid "Copy"
+#~ msgstr "コピー"
+
+#~ msgid "Preview"
+#~ msgstr "プレビュー"
+
+#~ msgid "Front"
+#~ msgstr "正面"
+
+#~ msgid "Back"
+#~ msgstr "背部"
+
+#~ msgid "Side"
+#~ msgstr "側面"
+
+#~ msgid "Decision"
+#~ msgstr "決定"
+
+#~ msgid "LR"
+#~ msgstr "LR"
+
+#~ msgid "Left"
+#~ msgstr "左"
+
+#~ msgid "Right"
+#~ msgstr "右"
+
+#~ msgid "Center"
+#~ msgstr "正中"
+
+#~ msgid "Part coordinates"
+#~ msgstr "部位座標"
+
+#~ msgid "Map"
+#~ msgstr "マップ"
+
+#~ msgid "Global coordinates"
+#~ msgstr "全体座標"
+
+#~ msgid "Head"
+#~ msgstr "頭部"
+
+#~ msgid "Facial part"
+#~ msgstr "顔面部"
+
+#~ msgid "Neck"
+#~ msgstr "頚部"
+
+#~ msgid "Upper shoulder"
+#~ msgstr "肩上部"
+
+#~ msgid "Upper arm"
+#~ msgstr "上腕部"
+
+#~ msgid "Anterior chest"
+#~ msgstr "前腕部"
+
+#~ msgid "Hand"
+#~ msgstr "手部"
+
+#~ msgid "Palm"
+#~ msgstr "手掌部"
+
+#~ msgid "Chest"
+#~ msgstr "胸部"
+
+#~ msgid "Shoulder part"
+#~ msgstr "肩甲部"
+
+#~ msgid "Abdomen"
+#~ msgstr "腹部"
+
+#~ msgid "Waist"
+#~ msgstr "腰部"
+
+#~ msgid "Buttocks"
+#~ msgstr "臀部"
+
+#~ msgid "Femur"
+#~ msgstr "大腿部"
+
+#~ msgid "Crus"
+#~ msgstr "下腿部"
+
+#~ msgid "Foot"
+#~ msgstr "足部"
+
+#~ msgid "New hole"
+#~ msgstr "新穴"
+
+#~ msgid "Temporary lung longitude in the hand"
+#~ msgstr "手太陰肺経"
+
+#~ msgid "Yang Ming large intestine of hand"
+#~ msgstr "手陽明大腸経"
+
+#~ msgid "Yangming Stomach"
+#~ msgstr "足陽明胃経"
+
+#~ msgid "Taiyan spleen of the foot"
+#~ msgstr "足太陰脾経"
+
+#~ msgid "Little shade of hands"
+#~ msgstr "手少陰心経"
+
+#~ msgid "Solar small intestine of hand"
+#~ msgstr "手太陽小腸経"
+
+#~ msgid "Foot solar bladder sutra"
+#~ msgstr "足太陽膀胱経"
+
+#~ msgid "Small shadow of the foot"
+#~ msgstr "足少陰腎経"
+
+#~ msgid "Handsome shadow menstruation"
+#~ msgstr "手厥陰心包経"
+
+#~ msgid "Small Yang Seng Lu"
+#~ msgstr "手少陽三焦経"
+
+#~ msgid "Little sunken gall bladder of feet"
+#~ msgstr "足少陽胆経"
+
+#~ msgid "Legs of the foot Liver of the liver"
+#~ msgstr "足厥陰肝経"
+
+#~ msgid "Desire"
+#~ msgstr "任脈"
+
+#~ msgid "The coroner"
+#~ msgstr "督脈"
+
+#~ msgid "A quirky hole"
+#~ msgstr "奇穴"
+
+#~ msgid "Sekichu"
+#~ msgstr "脊柱編"
+
+#~ msgid "Shishi"
+#~ msgstr "四肢編"
+
+#~ msgid "Fukuhai"
+#~ msgstr "腹背編"
+
+#~ msgid "Renndoushikou"
+#~ msgstr "連動思考編"
+
+#~ msgid "Gotaiyakudou"
+#~ msgstr "五体躍動編"
+
+#~ msgid "Shinshinwagou"
+#~ msgstr "身心和合編"
+
+#~ msgid "Furigana"
+#~ msgstr "よみがな"
+
+#~ msgid "Tsubo number"
+#~ msgstr "S-Code"
+
+#~ msgid "WHO"
+#~ msgstr "WHO"
+
+#~ msgid "Key points explanation"
+#~ msgstr "効能"
+
+#~ msgid "A hole"
+#~ msgstr "取穴"
+
+#~ msgid "A hole (for stores)"
+#~ msgstr "取穴（店舗用）"
+
+#~ msgid "Annotation"
+#~ msgstr "位置"
+
+#~ msgid "Body part"
+#~ msgstr "体の部位"
+
+#~ msgid "Meridian"
+#~ msgstr "経絡"
+
+#~ msgid "Coordinate"
+#~ msgstr "座標"
+
+#~ msgid "front"
+#~ msgstr "正面"
+
+#~ msgid "back"
+#~ msgstr "背面"
+
+#~ msgid "side"
+#~ msgstr "側面"
+
+#~ msgid "Sub-coordinate"
+#~ msgstr "サブ座標"
+
+#~ msgid "Feeling film"
+#~ msgstr "感触フィルム"
+
+#~ msgid ""
+#~ "The touch film is displayed to the person who received the selected "
+#~ "seminar."
+#~ msgstr "選択したセミナーを受けた人に感触フィルムを表示します。"
+
+#~ msgid "Evaluation"
+#~ msgstr "評価"
+
+#~ msgid "Access count"
+#~ msgstr "アクセス数"
+
+#~ msgid "Stores Member"
+#~ msgstr "協会会員"
+
+#~ msgid "General Member"
+#~ msgstr "一般"
+
+#~ msgid "Seido portal site plug-in"
+#~ msgstr "整動鍼ポータルサイトプラグイン"
+
+#~ msgid ""
+#~ "Plug-in case for a balanced acupuncture portal site can be linked with "
+#~ "other WordPress."
+#~ msgstr ""
+#~ "整動鍼ポータルサイト用プラグイン 症例を他のWordPressと連携できます。"
+
+#~ msgid "Layout"
+#~ msgstr "レイアウト"
+
+#~ msgid "Rows"
+#~ msgstr "行"
+
+#~ msgid "Tile"
+#~ msgstr "タイル"
+
+#~ msgid "Thumbnail"
+#~ msgstr "サムネイル"
+
+#~ msgid "Date"
+#~ msgstr "日付"
+
+#~ msgid "Article"
+#~ msgstr "記事抜粋"
+
+#~ msgid "Instructor Member"
+#~ msgstr "講師（役員）"
+
+#~ msgid "Clinical information"
+#~ msgstr "臨床情報"
+
+#~ msgid ""
+#~ "A message will be displayed to the person who received the designated "
+#~ "seminar."
+#~ msgstr "指定したセミナーを受けた人にメッセージを表示します。"
+
+#~ msgid "Seidoshin Operation"
+#~ msgstr "ツボネット運営"
+
+#~ msgid "Member"
+#~ msgstr "店舗会員"
+
+#~ msgid "Pot"
+#~ msgstr "ツボ"
+
+#~ msgid "Regular holiday"
+#~ msgstr "定休日"
+
+#~ msgid "When to share"
+#~ msgstr "シェアする場合"
+
+#~ msgid "Users of the same group will be able to view it."
+#~ msgstr "同グループのユーザーが閲覧できるようになります。"
+
+#~ msgid "Share memo"
+#~ msgstr "シェア用 メモ"
+
+#~ msgid "Seminar to use"
+#~ msgstr "使用するセミナー"
+
+#~ msgid "Hiroshi"
+#~ msgstr "臀部"
+
+#~ msgid "Category"
+#~ msgstr "カテゴリー"
+
+#~ msgid "Tag"
+#~ msgstr "タグ"
